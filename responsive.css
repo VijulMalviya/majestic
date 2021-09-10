@@ -1,0 +1,53 @@
+@media screen and (max-width: 576px) {
+  .hide-sm{
+      display: none;
+  }
+  .hide-lg{
+    display: initial;
+ }  
+  #home .home-text {
+    text-align: center;
+  }
+  #home .home-text h1 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  #home .home-text h3 {
+    font-size: 1rem;
+  }
+  #gender .gender {
+    height: 30vh;
+  }
+  #gender {
+    margin-top: -40%;
+  }
+  
+  #bestdeals .swiper {
+    height: 30vh ;
+  }
+  #bestdeals .swiper-slide img {
+    height: 60%;
+}
+#bestdeals .swiper-slide .bestdeal-card{
+  height: 40%;
+  text-align: left;
+}
+.collection-img{
+    height: 40vh;
+}
+.collectionimg{
+    height: 30vh;
+}
+#newarrival .swiper {
+    height: 50vh;
+  }
+  .urbanstories{
+    height: 40vh;
+}
+.winter{
+  height: 40vh;
+}
+.wintersmall{
+  height: 20vh;
+}
+}

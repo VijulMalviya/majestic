@@ -1,0 +1,92 @@
+
+.swiper-button-next, .swiper-button-prev{
+  color: var(--orange) !important;
+}
+#bestdeals .swiper {
+  height: 60vh;
+}
+
+#bestdeals .swiper-slide {
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#bestdeals .swiper-slide img {
+    display: block;
+    height: 75%;
+    object-fit: cover;
+}
+#bestdeals .swiper-slide .bestdeal-card{
+  display: block;
+  height: 25%;
+}
+
+#bestdeals .swiper-slide .card i{
+  background-color: transparent;
+}
+#bestdeals .swiper-slide .bestdeal-card .card-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#bestdeals .swiper-slide .bestdeal-card  h4{
+  color: #fdae73 ;
+  text-align: left;
+}
+#bestdeals .swiper-slide .bestdeal-card  h4 span{
+  color: var(--fontgrey) ;
+  font-size: small;
+  text-decoration: line-through;
+}
+
+
+
+#newarrival .swiper {
+  height: 90vh;
+}
+
+#newarrival .swiper-slide {
+  text-align: center;
+  /* background-color: rgb(124, 34, 34); */
+  overflow: hidden;
+}
+
+#newarrival .swiper-slide .slideimg{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: left;
+  padding-bottom:1rem ;
+}
+.slideimg-1{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.567)),url('./Images/gallery/full-body.png');
+}
+.slideimg-2{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.067),rgba(0, 0, 0, 0.567)),url('./Images/gallery/formal-coat.png');
+}
+.slideimg-3{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.067),rgba(0, 0, 0, 0.567)),url('./Images/gallery/ocean-blue.png');
+}
+.slideimg-4{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.067),rgba(0, 0, 0, 0.567)),url('./Images/gallery/sweater.png');
+}
+#newarrival .swiper-slide .slideimg h4{
+  font-weight: bold ;
+  color: white;
+}
+#newarrival .swiper-slide .slideimg h5{
+  /* font-weight: bold ; */
+  color: var(--grey) ;
+
+}
+#newarrival .swiper-slide .slideimg h6{
+  font-weight: bold ;
+  color: var(--orange);
+
+}
+

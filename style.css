@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+p {
+  font-size: small;
+  margin-bottom: 0;
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+.hide-sm{
+    display: initial;
+}
+.hide-lg{
+  display: none;
+}
+:root {
+  --black: #1c1c1c;
+  --orange: #fdae73;
+  --darkgrey: #e0e0e0;
+  --grey: #eeeeee;
+  --fontgrey: #9e9e9e;
+  --bggrey:rgb(248, 246, 246);
+}
+
+p {
+  font-size: small;
+  margin-bottom: 0;
+}
+#home {
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.79),
+      rgba(255, 255, 255, 0.79)
+    ),
+    url("./Images/gallery/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .home-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--black);
+}
+#home .home-text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+#home .home-text h3 {
+  font-size: 2.5rem;
+}
+
+#gender {
+  margin-top: -10%;
+}
+
+#gender .gender {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gender .female {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.222),
+      rgba(0, 0, 0, 0.222)
+    ),
+    url("./Images/gallery/her.png");
+}
+#gender .male {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.222),
+      rgba(0, 0, 0, 0.222)
+    ),
+    url("./Images/gallery/him.png");
+}
+.gender .gender-btn {
+  border: 0;
+  outline: 0;
+  color: var(--black);
+  background-color: white;
+  font-weight: bold;
+}
+#bestdeals,#newarrival{
+  position: relative;
+  background-color: var(--bggrey);
+}
+#bestdeals button{
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background-color: var(--black);
+    color: white;
+}
+
+.collection-img{
+    height: 80vh;
+    background-image: url('./Images/gallery/outfit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.collection-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bggrey);
+}
+.collection-text .inner-text h4{
+    color: var(--fontgrey);
+    font-weight: bold;
+}
+.collection-text .inner-text h2{
+    color: var(--black);
+    font-weight: 600;
+}
+.collection-text .inner-text button{
+    outline: none;
+    border: none;
+    background-color: var(--black);
+    color: white;
+    font-weight: 600;
+    font-size: small;
+}
+.collectionimg{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding-bottom: 3rem;
+}
+.collection-1{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.567)),url('./Images/gallery/vanity-bag.png');
+}
+.collection-2{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.567)),url('./Images/gallery/hat.png');
+}
+.collection-3{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.567)),url('./Images/gallery/high-heels.png');
+}
+.collectionimg h4{
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+#newarrival button{
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background-color: var(--black);
+    color: white;
+}
+
+.urbanstories{
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.urbanstories1{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.567)),url('./Images/gallery/urban.png');
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.urbanstories2{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.567)),url('./Images/gallery/country.png');
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.urbanstories .urbanstories-text1{
+    margin-top: 2rem;
+    margin-left: 1rem;
+} 
+.urbanstories .urbanstories-text2{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+} 
+.urbanstories .urbanstories-text h2{
+    font-size:2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.urbanstories .urbanstories-text h4{
+   
+    font-weight: bold;
+    color: white;
+}
+
+.wintersmall{
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wintersmall h3{
+    font-weight: 600;
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+.wintersmall1{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.2)),url('./Images/gallery/sunglasses.png');
+}
+.wintersmall2{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.2)),url('./Images/gallery/footwear.png');
+}
+.wintersmall3{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.2)),url('./Images/gallery/hat-black-border.png');
+}
+.wintersmall4{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.2)),url('./Images/gallery/watches.png');
+}
+.winter{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.winter1{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.567)),url('./Images/gallery/summer.png');
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.winter .winter-text1{
+    margin-bottom: 2rem;
+    
+}
+.winter .winter-text h2{
+    font-size:2.5rem;
+    font-weight: bold;
+    color: white;
+}
