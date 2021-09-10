@@ -50,4 +50,10 @@
 .wintersmall{
   height: 20vh;
 }
+.collection1-img{
+  height: 40vh;
+}
+#store .swiper {
+  height: 60vh;
+}
 }

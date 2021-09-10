@@ -233,7 +233,7 @@ p {
     background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.2)),url('./Images/gallery/hat-black-border.png');
 }
 .wintersmall4{
-    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.2)),url('./Images/gallery/watches.png');
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.2)),url('./Images/gallery/tie.png');
 }
 .winter{
     height: 80vh;
@@ -256,4 +256,57 @@ p {
     font-size:2.5rem;
     font-weight: bold;
     color: white;
+}
+.collection1-img{
+  height: 80vh;
+  background-image: url('./Images/gallery/sharp-dress.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.collection1-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bggrey);
+}
+.collection1-text .inner-text h4{
+  color: var(--fontgrey);
+  font-weight: bold;
+}
+.collection1-text .inner-text h2{
+  color: var(--black);
+  font-weight: 600;
+}
+.collection1-text .inner-text button{
+  outline: none;
+  border: none;
+  background-color: var(--black);
+  color: white;
+  font-weight: 600;
+  font-size: small;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li{
+    list-style: none;
+    font-size: small;
+    margin-top: 0.5rem;
+}
+footer a, footer p{
+  text-decoration: none;
+  color: var(--fontgrey);
+}
+footer i{
+  margin-right: 1rem;
+}
+footer h6{
+  font-weight: 600;
+}
+footer span{
+  color: var(--orange);
+  font-weight: 600;
 }
