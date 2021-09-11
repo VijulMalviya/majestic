@@ -1,9 +1,5 @@
 AOS.init();
 
-$(window).on("load", function () {
-  $("#loader").fadeOut(1500);
-});
-
 
 $(document).ready(function () {
   $("#bars").click(function () {

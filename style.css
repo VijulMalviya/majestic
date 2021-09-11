@@ -33,30 +33,7 @@ p {
   font-size: small;
   margin-bottom: 0;
 }
-.loader{
-  position: fixed;
-  z-index: 9999;
-  height: 100vh;
-  background-color:black;
-  
-}
-.loader{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.loader-img{
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-}
-.loader-img h6{
-  margin: 0;
-  margin-left: 0.5rem;
-  font-weight: bold;
-}
+
 .navigation{
   z-index: 9999;
   position: fixed;
