@@ -1,10 +1,25 @@
 @media screen and (max-width: 576px) {
   .hide-sm{
-      display: none;
+    display: none;
   }
   .hide-lg{
     display: initial;
  }  
+ .navigation .nav-sec{
+  padding-bottom: 2rem;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
+}
+.navigation a{
+  font-size: 1rem;
+}
+.nav-sec ul{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
   #home .home-text {
     text-align: center;
   }

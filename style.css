@@ -33,6 +33,71 @@ p {
   font-size: small;
   margin-bottom: 0;
 }
+.loader{
+  position: fixed;
+  z-index: 9999;
+  height: 100vh;
+  background-color:black;
+  
+}
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-img{
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.loader-img h6{
+  margin: 0;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+.navigation{
+  z-index: 9999;
+  position: fixed;
+}
+.navigation a{
+  text-decoration: none;
+  color: var(--black);
+  font-size: small;
+}
+.navigation .nav-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-sec ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left:0 ;
+  
+}
+.nav-sec ul li{
+  list-style: none;
+  display: block;
+  padding: 0 1rem;
+}
+.navigation .logo-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-sec .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h6{
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
 #home {
   height: 100vh;
   background: linear-gradient(
