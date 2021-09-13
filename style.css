@@ -28,14 +28,16 @@ body {
   --fontgrey: #9e9e9e;
   --bggrey:rgb(248, 246, 246);
 }
-
+#bars{
+  display: none;
+}
 p {
   font-size: small;
   margin-bottom: 0;
 }
 
 .navigation{
-  z-index: 9999;
+  z-index: 9999999;
   position: fixed;
 }
 .navigation a{
